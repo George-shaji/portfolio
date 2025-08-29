@@ -5,10 +5,10 @@
   "type": "module",
   "description": "George Shaji's Portfolio - A modern Vue.js portfolio website",
   "author": "George Shaji <georgeshaji091@gmail.com>",
-  "homepage": "https://george-shaji.github.io/my-portfolio",
+  "homepage": "https://george-shaji.github.io/portfolio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/george-shaji/my-portfolio.git"
+    "url": "https://github.com/george-shaji/portfolio.git"
   },
   "scripts": {
     "dev": "vite",

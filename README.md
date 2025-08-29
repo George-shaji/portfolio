@@ -72,16 +72,32 @@ my-portfolio/
 
 ## 🚀 Deployment
 
-This project is configured for deployment on GitHub Pages using GitHub Actions.
+This project is configured for deployment on GitHub Pages using manual deployment.
 
-### Manual Deployment
+### GitHub Pages Deployment (Recommended)
 ```bash
+# Option 1: Use the npm script
+npm run deploy
+
+# Option 2: Use the deployment script
+./deploy.sh
+
+# Option 3: Manual steps
 npm run build
-# Deploy the dist/ folder to your hosting service
+npx gh-pages -d dist
 ```
 
-### GitHub Pages Deployment
-The project includes GitHub Actions workflow for automatic deployment to GitHub Pages when you push to the main branch.
+### Other Hosting Services
+```bash
+npm run build
+# Deploy the dist/ folder to your hosting service (Netlify, Vercel, etc.)
+```
+
+### Setting up GitHub Token for gh-pages
+If you encounter permission issues:
+1. Go to GitHub Settings > Developer settings > Personal access tokens
+2. Generate a new token with `repo` scope
+3. Use the token when prompted by gh-pages
 
 ## 👨‍💻 About Me
 
