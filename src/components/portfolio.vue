@@ -371,13 +371,8 @@ onMounted(() => {
 </template>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .portfolio {
+  width: 100%;
   background-color: #0a0a0a;
   color: #ffffff;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -469,6 +464,7 @@ onMounted(() => {
 
 /* Hero Section */
 .hero {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -627,6 +623,7 @@ onMounted(() => {
 
 /* About Section */
 .about {
+  width: 100%;
   padding: 100px 0;
   background: #0f0f0f;
 }
@@ -691,6 +688,7 @@ onMounted(() => {
 
 /* Skills Section */
 .skills {
+  width: 100%;
   padding: 100px 0;
   background: #0a0a0a;
 }
@@ -741,6 +739,7 @@ onMounted(() => {
 
 /* Projects Section */
 .projects {
+  width: 100%;
   padding: 100px 0;
   background: #0f0f0f;
 }
@@ -853,6 +852,7 @@ onMounted(() => {
 
 /* Contact Section */
 .contact {
+  width: 100%;
   padding: 100px 0;
   background: #0a0a0a;
 }
@@ -928,6 +928,7 @@ onMounted(() => {
 
 /* Footer */
 .footer {
+  width: 100%;
   padding: 2rem 0;
   background: #000;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
