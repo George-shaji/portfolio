@@ -1,18 +1,35 @@
 {
   "name": "my-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "George Shaji's Portfolio - A modern Vue.js portfolio website",
+  "author": "George Shaji <georgeshaji091@gmail.com>",
+  "homepage": "https://george-shaji.github.io/my-portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/george-shaji/my-portfolio.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.5.18"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
-    "vite": "^7.1.2"
-  }
+    "vite": "^7.1.2",
+    "gh-pages": "^6.1.1"
+  },
+  "keywords": [
+    "portfolio",
+    "vue",
+    "vite",
+    "javascript",
+    "web-development",
+    "george-shaji"
+  ]
 }

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://george-shaji.github.io/my-portfolio/sitemap.xml
